@@ -1,0 +1,306 @@
+/* hear starts nave-bar decoration */
+#nav_dec {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: aliceblue;
+}
+#Navebar{
+  margin-left: 50%;
+}
+
+.header-icons{
+  margin-right: 21rem;
+}
+
+/* nave-bar decaration ends here */
+/* curocle decaration start here */
+#cd_dec {
+  background-color: rgba(136, 172, 172, 0.168);
+  margin-top: -2%;
+}
+
+.data {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  text-align: left;
+  margin-left: 10%;
+}
+
+.data h1 {
+  margin-top: 30%;
+}
+
+.data button {
+  background-color: rgba(149, 103, 103, 0.269);
+  border: transparent;
+}
+
+.data img {
+  width: 100%;
+  height: 500px;
+}
+
+@media only screen and (max-width:400px) {
+
+  .data {
+    display: grid;
+    grid-template-columns: auto;
+    text-align: left;
+    margin-left: 10%;
+  }
+}
+
+/* corosel decoration is end  here*/
+/* App fesilites decoration start here */
+.Offers_dec {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 5% 10%;
+
+}
+
+.ofCart {
+  margin: 5% 2%;
+  padding: 1rem;
+}
+
+.Offers_dec span {
+  background-color: white;
+  background-color: 1px transparent;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.ofCart h5 {
+  margin-top: 10%;
+}
+
+@media only screen and (min-width:400px) and (max-width:1000px) {
+  .Offers_dec {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 5% 10%;
+
+  }
+}
+
+@media only screen and (max-width:400px) {
+  .Offers_dec {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 5% 10%;
+
+  }
+}
+
+/* app advantages decoration ends here */
+/* Discount product decoration start here */
+.discount_dec {
+  background-color: rgba(136, 172, 172, 0.168);
+  /* position: relative;
+ z-index: -1; */
+}
+
+.discount_dec h1 {
+  padding-top: 5%;
+}
+
+.dic_dec {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 5% 10%;
+}
+
+#dicount {
+  margin: 5% 3%;
+  position: relative;
+  text-align: left;
+}
+
+#dicount img {
+  width: 100%;
+  height: 300px;
+
+}
+
+#dicount span {
+  position: absolute;
+  margin-left: -95%;
+  margin-top: 5%;
+  border: 1px solid;
+  padding: 0 0.2rem;
+  background-color: rgb(5, 5, 50);
+  color: white;
+  border-radius: 30px;
+}
+
+#dicount sup {
+  position: absolute;
+  margin-left: -15%;
+  font-size: 3vh;
+  margin-top: 10%;
+  opacity: 0;
+}
+
+#dicount:hover sup {
+  opacity: 1.5;
+}
+
+#dicount p {
+  color: rgba(232, 191, 9, 0.907);
+}
+
+.dic_btn {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10%;
+  font-size: 4vh;
+}
+
+.dic_btn button {
+  border-radius: 50%;
+  background-color: white;
+  border: transparent;
+}
+
+.dic_btn button:hover {
+  background-color: rgba(112, 174, 210, 0.762);
+  color: white;
+}
+
+@media only screen and (min-width:400px) and (max-width:1000px) {
+  .dic_dec {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+}
+
+@media only screen and (max-width:800px) {
+  .dic_dec {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+}
+
+/* shop component decoration start here */
+.shop_dec {
+  background-image: url("./Asets/Images/premium.avif");
+  background-repeat: no-repeat;
+  height: 200px;
+  margin-top: -2%;
+  margin-bottom: 5%;
+  color: white;
+}
+
+.shop_dec h1 {
+  background-color: black;
+  opacity: 60%;
+  padding: 5% 0;
+  height: 200px;
+}
+
+.Shop_in {
+  padding: 1rem;
+}
+
+.Shop_in input {
+  width: 80%;
+  height: 40px;
+  margin-top: -10%;
+  border: transparent;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: rgba(81, 111, 111, 0.179);
+}
+
+.shop_icon {
+  margin-left: -5%;
+}
+
+#shop_sec {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+/* cart decaration start here */
+.Cart_dec {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  background-color: white;
+  text-align: left;
+}
+
+.Cart_dec img {
+  width: 100%;
+  height: 200px;
+}
+.cart_name {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  background-color: rgba(131, 220, 223, 0.356);
+  padding: 5%;
+  margin-top: -2%;
+}
+.Cart_dec button{
+  background: none;
+  border: none;
+
+}
+.cart_btn{
+  margin-left: 80%;
+}
+.Cart_dec h3{
+  margin-top: 5%;
+}
+
+.cart_price{
+  background-color: white;
+  padding: 10%;
+}
+
+/* singel product detels decaration start here */
+.oneProduct{
+  display: grid;
+  grid-template-columns: 40% 60%;
+  text-align: left;
+  /* margin-top: -10%; */
+}
+.oneProduct img{
+  width: 100%;
+  height: 400px;
+}
+.oneText{
+  margin: 10%;
+}
+.oneText h3{
+  padding: 2% 0;
+}
+.oneText span{
+padding-right: 10% ;
+}
+.oneText strong{
+  padding-right: 10%;
+}
+.single_dec{
+  text-align: left;
+  margin: 1% 5%;
+}
+.single_dec button{
+ border: none;
+ background: none;
+ margin: 1%;
+}
+
+/* f o o t e r */
+
+.footeer-main{
+  background-color: rgb(5, 5, 75);
+}
+
+.footeer-main a{
+  text-decoration: none ;
+}
+
